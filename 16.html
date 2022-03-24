@@ -1,0 +1,50 @@
+<div class="outside flex">
+    <div class="circle_outside flex">
+        <div class="circle_inside flex">
+            <div class="circle_center"></div>
+        </div>
+    </div>
+</div>
+
+<style>
+    body,
+    .circle_outside,
+    .circle_center {
+        background: #0B2429;
+    }
+
+    .outside {
+        background: #998235;
+        border-radius: 0 100px;
+        width: 200px;
+        height: 200px;
+        margin: 50px auto;
+        transform: rotate(-45deg);
+    }
+
+    div[class*="circle"] {
+        border-radius: 100px;
+    }
+
+    .flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .circle_outside {
+        width: 180px;
+        height: 180px;
+    }
+
+    .circle_inside {
+        background: #F3AC3C;
+        width: 140px;
+        height: 140px;
+    }
+
+    .circle_center {
+        width: 50px;
+        height: 50px;
+    }
+</style>
